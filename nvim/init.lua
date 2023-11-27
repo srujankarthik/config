@@ -1,6 +1,2 @@
-require("night.plugins-setup")
-require("night.core.options")
-require("night.core.keymaps")
-require("night.core.colorscheme")
-require("night.plugins.comment")
-require("night.plugins.nvim-tree")
+require("srujan.core")
+require("srujan.lazy")

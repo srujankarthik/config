@@ -1,13 +1,13 @@
-local opt = vim.opt 
+local opt = vim.opt -- for conciseness
 
--- setting line numbers
+-- line numbers
 opt.number = true
 
--- tabs and indetation
+-- tabs & indentation
 opt.tabstop = 2
 opt.shiftwidth = 2
 opt.expandtab = true
-opt.autoindent= true
+opt.autoindent = true
 
 -- line wrapping
 opt.wrap = false
@@ -24,7 +24,7 @@ opt.termguicolors = true
 opt.background = "dark"
 opt.signcolumn = "yes"
 
--- backspacing
+-- backspace
 opt.backspace = "indent,eol,start"
 
 -- clipboard
